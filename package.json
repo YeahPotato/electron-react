@@ -1,12 +1,12 @@
 {
   "name": "electron-react-vite-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "jokeyyang",
   "description": "electron app",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && electron-builder",
+    "build": "tsc && vite build && electron-builder --publish always",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
